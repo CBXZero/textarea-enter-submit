@@ -1,1 +1,1 @@
-export { TextAreaEnterDirective } from './text-area-enter.directive';
+export { TextAreaEnterModule } from './text-area-enter.module';
