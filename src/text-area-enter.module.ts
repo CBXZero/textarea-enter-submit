@@ -3,8 +3,9 @@ import { TextAreaEnterDirective } from './text-area-enter.directive';
 
 @NgModule({
   declarations: [
+      TextAreaEnterDirective
   ],
-  imports: [
+  exports: [
     TextAreaEnterDirective
   ],
   providers: [],

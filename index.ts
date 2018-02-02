@@ -1,1 +1,0 @@
-import { TextAreaEnterModule } from 'dist/index';
