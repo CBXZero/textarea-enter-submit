@@ -2,6 +2,7 @@ import { Directive, ElementRef, HostListener, Output, EventEmitter } from '@angu
 
 @Directive({
     selector: 'textAreaEnter',
+    exportAs: 'textAreaEnter'
 })
 export class TextAreaEnterDirective {
     @Output() onEnterKeypress = new EventEmitter();
